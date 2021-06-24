@@ -130,11 +130,6 @@ header {
     style = "width:25%";
   }
   
-  .accordion-header{
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
   
 /* Movies */
 .container {
@@ -166,3 +161,12 @@ body {
   width: auto;
   padding: 10px;
 }
+  
+  .movieposter img {
+    height: 90%;
+    width: 90%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
