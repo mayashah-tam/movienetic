@@ -130,9 +130,9 @@ header {
     style = "width:25%";
   }
   
-  
-  .accordion-heading {
-    background-color: white;
+  .accordion-header{
+    margin-left: auto;
+    margin-right: auto;
   }
   
   
