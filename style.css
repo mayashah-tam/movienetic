@@ -133,3 +133,39 @@ header {
   .small-accordion {
     style = "width:25%";
   }
+  
+  .accordion-heading {
+    background-color: white;
+  }
+  
+  
+/* Movies */
+.container {
+  display: flex;
+  margin-top: 50px;
+}
+
+.item {
+  position: relative;
+  display: block;
+  flex: 1 1 0px;
+  transition: transform 500ms;
+}
+
+.container .item:focus,
+.container .item:hover {
+  transform: scale(1.5);
+  z-index: 1;
+}
+
+body {
+  overflow: hidden;
+}
+
+.item img {
+  display: block;
+  /* max-width: 100%; */
+  height: 100%;
+  width: auto;
+  padding: 10px;
+}
