@@ -53,9 +53,9 @@ header {
   
 }
 
-.navbar-brand {
-  font-family: 'Big Shoulders Stencil Display', cursive;
-  
+.logo {
+  height: 70px;
+  width: auto;
 }
 
 
