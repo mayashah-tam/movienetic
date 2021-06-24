@@ -11,7 +11,7 @@
 html {
   background-color: #fff;
   color: #555;
-  font-family: "Lato", "Arial", sans-serif;
+  font-family: 'Big Shoulders Stencil Display', cursive;
   font-size: 20px;
   font-weight: 300;
   text-rendering: optimizeLegibility;
@@ -40,6 +40,8 @@ header {
   height: 100vh;
 }
 
+
+
 .main-page {
   position: absolute;
   width: 1140px;
@@ -47,14 +49,17 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  font-family: 'Roboto Mono', monospace;
+  
 }
 
 .navbar-nav {
   float: right;
   list-style: none;
   background-color: transparent;
-  font-size: "Staatliches", cursive;
-}
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  font-size: 40px;
+  }
 
 .links {
   float: right;
@@ -137,6 +142,7 @@ header {
   padding-left: 5%;
   border-style: solid;
   margin-top: 30px;
+  padding-top: 30px;
   
   
   
