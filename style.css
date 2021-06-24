@@ -134,6 +134,10 @@ header {
 
 .section-header {
   font-size: 100%;
-  padding-left: 20%;
+  padding-left: 5%;
+  border-style: solid;
+  margin-top: 30px;
+  
+  
   
 }
