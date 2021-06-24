@@ -50,7 +50,10 @@ header {
   transform: translate(-50%, -50%);
   color: white;
   font-family: 'Roboto Mono', monospace;
-  
+}
+
+strong {
+  font-weight: 
 }
 
 .navbar-nav {
@@ -59,6 +62,7 @@ header {
   background-color: transparent;
   font-family: 'Big Shoulders Stencil Display', cursive;
   font-size: 40px;
+  margin-left: 50px;
   }
 
 .links {
