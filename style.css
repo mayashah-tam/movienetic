@@ -117,11 +117,10 @@ header {
 
 .text {
   color: white;
-  font-size: 5.35px;
+  font-size: 12px;
   position: absolute;
-  top: 47%;
+  top: 50%;
   left: 50%;
-  right: -25%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
