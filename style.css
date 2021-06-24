@@ -109,15 +109,15 @@ header {
 }
 
 .container:hover .overlay {
-  -webkit-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  transform: scale(1.5);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
   background-color: black;
 }
 
 .text {
   color: white;
-  font-size: 12px;
+  font-size: 9px;
   position: absolute;
   top: 50%;
   left: 50%;
