@@ -126,3 +126,8 @@ header {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+.accordion-button {
+  background-color: #F8F3EA;
+  
+}
