@@ -28,97 +28,7 @@ html {
   visibility: hidden;
 }
 
-/* ------------------------------------- */
-/* REUSABLE COMPONENTS */
-/* ------------------------------------- */
 
-.row {
-  max-width: 1140px;
-  margin: 0 auto;
-}
-
-section {
-  padding: 80px 0;
-}
-
-.box {
-  padding: 1%;
-}
-
-/*----------HEADINGS----------- */
-h1,
-h2,
-h3 {
-  font-weight: 300;
-  color: #fff;
-}
-
-/* h1 {
-  margin-top: 0;
-  margin-bottom: 20px;
-  color: white;
-  font-size: 240%;
-  word-spacing: 4px;
-  letter-spacing: 1px;
-}
-
-h2 {
-  font-size: 180%;
-  word-spacing: 2px;
-  text-align: center;
-  margin-bottom: 30px;
-  letter-spacing: 1px;
-}
-
-h3 {
-  font-size: 110%;
-  margin-bottom: 15px;
-} */
-
-
-/* ------------------------------------- */
-/* HEADER */
-/* ------------------------------------- */
-
-header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(Action/movieBackground.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-
-.main-page {
-  position: absolute;
-  width: 1140px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-
-.navbar-nav {
-  float: right;
-  list-style: none;
-  background-color: transparent;
-}
-
-.navbar-nav a:link,
-.navbar-nav a:visited {
-  padding: 8px 0;
-  color: transparent;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 90%;
-  border-bottom: 2px solid transparent;
-  transition: border-bottom 0.2s;
-}
-
-.navbar-nav a:hover,
-.navbar-nav a:active {
-  border-bottom: 2px solid red;
-  font-weight: 100;
-}
 /* ------------------------------------- */
 /* HEADER */
 /* ------------------------------------- */
@@ -144,6 +54,11 @@ header {
   float: right;
   list-style: none;
   background-color: transparent;
+  font-size: "Staatliches", cursive;
+}
+
+.links {
+  float: right;
 }
 
 .navbar-nav a:link,
@@ -160,5 +75,5 @@ header {
 .navbar-nav a:hover,
 .navbar-nav a:active {
   border-bottom: 2px solid red;
-  font-weight: 100;
+  font-weight: 700;
 }

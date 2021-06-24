@@ -12,9 +12,56 @@
       crossorigin="anonymous"
     />
     <title>Movienetic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #00000;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container:hover .overlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Movienetic</a>
         <button
@@ -29,7 +76,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
+          <div class="navbar-nav links navbar-right">
             <a class="nav-link active" aria-current="page" href="#action"
               >Action</a
             >
@@ -42,7 +89,7 @@
             <a class="nav-link active" aria-current="page" href="#animation"
               >Animation</a
             >
-            <a class="nav-link active" aria-current="page" href="#horrr"
+            <a class="nav-link active" aria-current="page" href="#horror"
               >Horror/Thriller</a
             >
           </div>
@@ -52,7 +99,7 @@
     <header>
       <div class="main-page">
         <h1>
-          dont waste time on bad things. <br />
+          don't waste time on bad things. <br />
           especially movies.
         </h1>
       </div>
@@ -128,11 +175,16 @@
                 aria-labelledby="panelsStayOpen-headingOne"
               >
                 <div class="accordion-body">
-                  <img
-                    src="https://cdn.glitch.com/4bd9d794-bda3-41f7-9310-103f87124753%2FSpider-Man_Far_From_Home_poster.jpg?v=1624543173471"
+                  <div class="container">
+  <img  src="https://cdn.glitch.com/4bd9d794-bda3-41f7-9310-103f87124753%2FSpider-Man_Far_From_Home_poster.jpg?v=1624543173471"
                     style="width:95%; length:95%"
-                    alt="Spider-Man: Far From Home Movie Poster"
-                  />
+                    alt="Spider-Man: Far From Home Movie Poster" class="image"
+       />
+  <div class="overlay">
+    <div class="text">Hello world</div>
+  </div>
+</div>
+            
                 </div>
               </div>
             </div>
@@ -341,7 +393,8 @@
                   class="accordion-body"
                   style="font-size:9.5px; text-align:center"
                 >
-                  <q>Happy Hunger Games! And may the odds be ever in your favor!
+                  <q
+                    >Happy Hunger Games! And may the odds be ever in your favor!
                   </q>
                   - Effie Trinket
                 </div>
@@ -350,7 +403,7 @@
           </div>
         </div>
         <div class="col-2">
-            <div
+          <div
             class="accordion small-accordion"
             id="accordionPanelsStayOpenExample3"
           >
@@ -463,7 +516,8 @@
                   style="font-size:9.5px; text-align:center"
                 >
                   <q
-                    >The key to a happy life is to accept that you are never actually in control.
+                    >The key to a happy life is to accept that you are never
+                    actually in control.
                   </q>
                   - Simon Masarani
                 </div>
@@ -584,9 +638,7 @@
                   class="accordion-body"
                   style="font-size:9.5px; text-align:center"
                 >
-                  <q
-                    >A gun and a radio...Not exactly Christmas is it?
-                  </q>
+                  <q>A gun and a radio...Not exactly Christmas is it? </q>
                   - James Bond
                 </div>
               </div>
@@ -708,7 +760,8 @@
                   style="font-size:9.5px; text-align:center"
                 >
                   <q
-                    >I get emails from a raccoon, so nothing sounds crazy anymore
+                    >I get emails from a raccoon, so nothing sounds crazy
+                    anymore
                   </q>
                 </div>
               </div>
@@ -741,9 +794,9 @@
               >
                 <div class="accordion-body">
                   <img
-                    src="https://cdn.glitch.com/4bd9d794-bda3-41f7-9310-103f87124753%2FSpider-Man_Far_From_Home_poster.jpg?v=1624543173471"
+                    src="https://cdn.glitch.com/4bd9d794-bda3-41f7-9310-103f87124753%2Ff9.jpg?v=1624543236057"
                     style="width:95%; length:95%"
-                    alt="Spider-Man: Far From Home Movie Poster"
+                    alt="Fast & Furious 9 Movie Poster"
                   />
                 </div>
               </div>
@@ -771,9 +824,9 @@
                   class="accordion-body"
                   style="font-size:9.5px; text-align:center"
                 >
-                  IMDb: 7.5/10<br />
-                  Rotten Tomatoes: 90%<br />
-                  Metacritic: 69%
+                  IMDb: 5.2/10<br />
+                  Rotten Tomatoes: 66%<br />
+                  Metacritic: 56%
                 </div>
               </div>
             </div>
@@ -800,8 +853,8 @@
                   class="accordion-body"
                   style="font-size:9.5px; text-align:center"
                 >
-                  <a href="https://www.youtube.com/watch?v=Nt9L1jCKGnE"
-                    >Spider-Man: Far From Home Trailer</a
+                  <a href="https://www.youtube.com/watch?v=fEE4RO-_jug"
+                    >Fast & Furious 9 Trailer</a
                   >
                 </div>
               </div>
@@ -830,10 +883,10 @@
                   style="font-size:9.5px; text-align:center"
                 >
                   <q
-                    >I wasted my whole life playing video games and we're gonna
-                    die!
+                    >The world has a way of changing. But there’s one thing that
+                    always stays the same
                   </q>
-                  - Jacob Batalon
+                  - Dominic Torretto
                 </div>
               </div>
             </div>
