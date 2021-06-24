@@ -48,13 +48,16 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
-  font-family: 'Roboto Mono', monospace;
+  color: red;
+  font-family: 'Comfortaa', cursive;
+  
 }
 
-strong {
-  font-weight: 
+.navbar-brand {
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  
 }
+
 
 .navbar-nav {
   float: right;
