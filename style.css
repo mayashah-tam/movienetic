@@ -82,83 +82,83 @@ h3 {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(Action/movieBackground.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.main-page {
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.navbar-nav {
+  float: right;
+  list-style: none;
+  background-color: transparent;
+}
+
+.navbar-nav a:link,
+.navbar-nav a:visited {
+  padding: 8px 0;
+  color: transparent;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+.navbar-nav a:hover,
+.navbar-nav a:active {
+  border-bottom: 2px solid red;
+  font-weight: 100;
+}
+/* ------------------------------------- */
+/* HEADER */
+/* ------------------------------------- */
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(https://cdn.glitch.com/4bd9d794-bda3-41f7-9310-103f87124753%2FmovieBackground.jpg?v=1624541874814);
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
 
-.motto {
+.main-page {
   position: absolute;
   width: 1140px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: white;
 }
 
-.logo {
-  float: left;
-  list-style: none;
-  margin-top: 55px;
-  margin-left: 50px;
-  font-size: 90%;
-  color: #fff;
-/*   text-transform: uppercase; */
-  /* background-color: red; */
-}
-
-.main-nav {
+.navbar-nav {
   float: right;
   list-style: none;
-  margin-top: 55px;
-  /* background-color: aqua; */
+  background-color: transparent;
 }
 
-.main-nav li {
-  display: inline-block;
-  margin-left: 40px;
-  /* background-color: red; */
+.navbar-nav a:link,
+.navbar-nav a:visited {
   padding: 8px 0;
-  color: #fff;
+  color: transparent;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 90%;
   border-bottom: 2px solid transparent;
   transition: border-bottom 0.2s;
-  
-  .small-accordion {
-    style = "width:25%";
-  }
-  
-  
-/* Movies */
-.container {
-  display: flex;
-  margin-top: 50px;
 }
 
-.item {
-  position: relative;
-  display: block;
-  flex: 1 1 0px;
-  transition: transform 500ms;
+.navbar-nav a:hover,
+.navbar-nav a:active {
+  border-bottom: 2px solid red;
+  font-weight: 100;
 }
-
-.container .item:focus,
-.container .item:hover {
-  transform: scale(1.5);
-  z-index: 1;
-}
-
-body {
-  overflow: hidden;
-}
-
-.item img {
-  display: block;
-  /* max-width: 100%; */
-  height: 100%;
-  width: auto;
-  padding: 10px;
-}
-  
