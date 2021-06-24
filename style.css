@@ -86,7 +86,7 @@ header {
 }
 
 .image {
-  display: inline;
+  display: block;
   width: 200%;
   height: auto;
   margin-left: -50%
