@@ -34,11 +34,21 @@
 .image__title {
   font-size: 20px;
   font-weight: bold;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: center;
+  font-family: "Big Shoulders Stencil Display", cursive;
+  
 }
 
 .image__description {
-  font-size: 15px;
-  margin-top: 20px;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Comfortaa", cursive;
+  
 }
 
 /* .img__wrap {
@@ -211,14 +221,34 @@ header {
 }
 
 .section-header {
-  margin-top: 30px;
-  padding-top: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
   font-family: "Big Shoulders Stencil Display", cursive;
-  font-size: 40px;
+  font-size: 50px;
   color: red;
-  font-weight: 600;
+/*   border-style: solid; */
+  border-top: solid;
+  border-bottom: solid;
+  border-color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: 500;
+  text-align: center;
 }
 
 body {
   scroll-behaviour: smooth;
+}
+
+.horror-container {
+  margin-bottom: 150px;
+}
+
+.accordion-body {
+  font-family: "Comfortaa", cursive;
+  font-size: 30px;
+}
+
+.accordion-button {
+  font-family: "Comfortaa", cursive;
 }
