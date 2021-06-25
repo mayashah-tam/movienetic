@@ -216,7 +216,7 @@ header {
   font-family: "Big Shoulders Stencil Display", cursive;
   font-size: 40px;
   color: red;
-  /*   font-weight: 20; */
+  font-weight: 600;
 }
 
 body {
