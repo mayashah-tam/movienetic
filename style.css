@@ -211,11 +211,15 @@ header {
 }
 
 .section-header {
-  font-size: 100%;
-  padding-left: 5%;
-  border-style: solid;
   margin-top: 30px;
   padding-top: 30px;
   font-family: "Big Shoulders Stencil Display", cursive;
-  font-size: 
+  font-size: 40px;
+  color: red;
+/*   font-weight: 20; */
+  
+}
+
+body{
+scroll-behaviour:smooth
 }
