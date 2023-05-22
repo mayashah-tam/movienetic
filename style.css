@@ -91,8 +91,8 @@
 }
 
 html {
-  background-color: #fff;
-  color: #555;
+  background-color: #ffffff;
+  color: #555555;
   font-family: "Big Shoulders Stencil Display", cursive;
   font-size: 20px;
   font-weight: 300;
@@ -130,6 +130,7 @@ header {
   transform: translate(-50%, -50%);
   color: red;
   font-family: "Comfortaa", cursive;
+  
 }
 
 .logo {
